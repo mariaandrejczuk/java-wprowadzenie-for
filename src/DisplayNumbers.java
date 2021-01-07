@@ -42,12 +42,6 @@ public class DisplayNumbers {
             }
             System.out.println();
         }
-
-        System.out.println("---------- ZADANIE 5 ----------");
-
-        
-
-
     }
 }
 
