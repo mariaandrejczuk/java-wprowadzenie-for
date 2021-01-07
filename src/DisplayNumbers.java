@@ -28,7 +28,7 @@ public class DisplayNumbers {
         for (int i = 'a'; i <= 'z'; i++) {
             System.out.println((char) i);
         }
-        
+
         System.out.println("---------- ZADANIE 4 ----------");
 
         int[][] numbers = {{1, 3, 4}, {1, 1}, {4, 5, 5, 7, 3}, {5, 1, 1, 1}};
@@ -42,6 +42,12 @@ public class DisplayNumbers {
             }
             System.out.println();
         }
+
+        System.out.println("---------- ZADANIE 5 ----------");
+
+        
+
+
     }
 }
 
