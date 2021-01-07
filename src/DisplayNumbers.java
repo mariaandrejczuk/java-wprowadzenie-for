@@ -1,6 +1,3 @@
-
-//Zadanie 1
-
 public class DisplayNumbers {
     public static void main(String[] args) {
 
@@ -19,6 +16,17 @@ public class DisplayNumbers {
             if (i % 2 == 0) {
                 System.out.println(i);
             }
+        }
+
+        System.out.println("---------- ZADANIE 3 ----------");
+
+        char c = 'a';
+        char c1 = 'z';
+        System.out.println((int)c);
+        System.out.println((int)c1);
+
+        for(int i = 'a';i <= 'z';i++){
+            System.out.println((char)i);
         }
     }
 }
