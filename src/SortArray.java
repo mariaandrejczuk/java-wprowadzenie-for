@@ -1,7 +1,7 @@
 public class SortArray {
     public static void main(String[] args) {
 
-        int[] numbers = {5, 2, -5, 1, 5, 22, 5};
+        int[] numbers = {10, -5, 1};
         /*
         1-szy obieg - dwa porówania
         5,2,-5
@@ -14,15 +14,24 @@ public class SortArray {
         //wyświetlenie elementów:
         for (int i = 0; i < numbers.length; i++) {
             System.out.println(numbers[i] + ",");
+        }
+        System.out.println();
 
-            //wyświetlenie elementów:
-            for (int i = 0; i < numbers.length; i++) {
-                if (numbers[i] > numbers[i + 1]) {
+        //sortowanie elementów:
+        for (int z = 0; z < numbers.length; z++) {
+            for (int i = 0; i < numbers.length-1; i++) {
+                if (numbers[i] > numbers[i+1]) {
                     int tmp = numbers[i];
-                    numbers[i] = numbers[i + 1];
-                    numbers[i + 1] = tmp;
+                    numbers[i] = numbers[i+1];
+                    numbers[i+1] = tmp;
                 }
             }
         }
+
+        //wyświetlenie elementów:
+        for (int j = 0; j < numbers.length; j++) {
+            System.out.println(numbers[j] + ",");
+        }
+        System.out.println();
     }
 }
